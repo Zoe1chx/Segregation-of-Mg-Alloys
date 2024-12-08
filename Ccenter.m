@@ -1,4 +1,4 @@
-% 这个是4.3讨论不同位置的浓度
+
 baseNumber = '0015';
 baseFolder = 'C:\Users\DELL\Desktop\script\datafinal\Quanzhuding';
 fileTypes = {'Temperature_', 'Liquid_fraction_', 'Concentration_', 'U_velocity_', 'V_velocity_'};
