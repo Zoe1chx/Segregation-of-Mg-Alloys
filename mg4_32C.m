@@ -8,9 +8,7 @@ for i = 1:4
     C{i} = readConcentration(fullfile(basePath1, filenames{i}), range);
  
 end
-
-% 计算中间索引
 midIndex = (size(C{1}, 1) + 1) / 2;
-% 函数绘制图像
+
 plotConcentration(C(1:4), midIndex, 1);
 
