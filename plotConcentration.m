@@ -1,8 +1,8 @@
 function plotConcentration(C, midIndex, figNumber)
-      colors = [0.8, 0.2, 0.2;    % 深红色
-              0, 0, 0;          % 黑色
-              0, 0.3, 0.7;      % 深蓝色
-              0.1, 0.6, 0.3];   % 深绿色
+      colors = [0.8, 0.2, 0.2;    
+              0, 0, 0;          
+              0, 0.3, 0.7;    
+              0.1, 0.6, 0.3];   
     lineStyles = {'-', '--', ':', '-.'};
     x = linspace(0, 0.3, size(C{1}, 2));
     figure(figNumber);
