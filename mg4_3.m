@@ -6,5 +6,6 @@ for i = 1:4
     C{i} = readConcentration(fullfile(basePath1, filenames{i}), range);
 
 midIndex = (size(C{1}, 1) + 1) / 2;
+end
 plotConcentrationRow(C(1:4), midIndex, 1);
 
